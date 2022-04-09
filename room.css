@@ -1,0 +1,568 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+    
+
+            /* START ROOMS WEB SITE  */
+
+.small__item{
+    width: 100%;
+    height: 30px;
+    background-color: #F4F4F4;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    Letter-spacing: 2px;
+    
+
+}
+
+.small__item p{
+    padding: 10px;
+    position: relative;
+    left: 75%;
+    opacity: 30%;
+    color: #333;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+
+.small__item p:hover{
+    opacity: 70%;
+}
+
+.navbar{
+    width: 100%;
+    height:100px;
+}
+
+.inner__navbar{
+    width: 85%;
+    height:100px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    padding: 20px;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #333;
+    opacity: 70%;
+}
+
+li a:hover{
+    opacity: 100%;
+    transition: all 0.2s ease;
+}
+
+
+.logo{
+    font-size: 25px;
+    letter-spacing: 13px;
+    font-family: Verdana;
+    opacity: 60%;
+    
+}
+
+.icons{
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: #333;
+    opacity: 60%;
+    
+}
+
+.ic{
+    position: relative;
+    left: 10px;
+}
+
+.bg__img{
+    text-align: center;
+}
+
+
+hr{
+    border-radius: 50%;
+    position: relative;
+    bottom: 15px;
+
+}
+
+
+            /* START ROOMS SECTION */
+
+#rooms{
+    width: 100%;
+    
+}
+
+.main__text{
+    width: 85%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle__text{
+    width: 40%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 50px;
+    color: #333;
+    opacity: 90%;
+}
+.middle__text2{
+    width: 45%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 19px;
+    line-height: 32px;
+    font-weight: 100;
+    text-align: left ;
+    color: #333;
+    opacity: 60%;
+}
+
+.rooms__img1{
+    width:90% ;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    color: #333;
+}
+
+.rooms__img2{
+    width:90% ;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    color: #333;
+
+
+}
+
+                /* END ROOMS SECTION */
+
+
+                /* BRANDS SECTION STARTED */
+
+
+
+#brands{
+    width: 100%;
+    height: 100vh;
+}
+
+.brand{
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+
+}
+.bradns__text{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    line-height: 80px;
+}
+
+.count{
+    font-size: 25px;
+    opacity: 70%;
+}
+.brands__icon{
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 230px;
+    padding:40px ;
+    
+}
+
+.brands__icon img:hover{
+    cursor: pointer;    
+    
+
+}
+
+.length1,.length2,.length3{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 30px;
+    
+}
+.length1,.length2,.length3{
+    margin: 30px;
+}
+
+/* BRANDS SECTION END */
+
+
+/* SLIDER SECTION START */
+
+
+#slider{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.slider{
+    text-align: center;
+}
+
+
+/* SLIDER SECTION END */
+
+
+/* ABOUT SECTION START */
+
+#about{
+    width: 100%;
+    height: 340vh;
+}
+
+
+.center__item__about{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.about__inner__text .st__text{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 50px;
+    opacity: 60%;
+    color: #333;
+}
+.about__inner__text .nd__text {
+    opacity: 100%;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 50px;
+    color: #333;
+}
+
+.about__imgs{
+    display: flex;
+    align-items: center; 
+
+     
+}
+
+.dirdect{
+    width: 40%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #333;
+
+}
+.direct__text2{
+    font-size:20px ;
+    line-height: 30px;
+    opacity: 50%;
+}
+.dirdect .direct__text{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* ABOUT SECTION END */
+
+#slider2{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.slider2__item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+                /* RISK SECTION START */
+
+#risk{
+    width: 100%;
+    height: 80vh;
+}
+
+.risk__card{
+    width: 80%;
+    height: 60vh;
+    box-shadow:  0 0 100px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+.risk__text{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #333;
+    opacity: 80%;
+}
+
+.risks__logos{
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content:  space-evenly;
+    position: relative;
+    top: 70px;
+}
+.risks__logos p {
+    position: relative;
+    top: 15px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+}
+
+.risks__logos img{
+    border-radius: 10px;
+    box-shadow:  0 0 70px 10px rgba(0, 0, 0, 0.25);
+    opacity: 70%;
+    transition: 1 ease-in-out;
+}
+
+.risks__logos p {
+    font-family: Verdana, Geneva, sans-serif;
+    opacity: 50%;
+    color: #333;
+}
+
+.risks__logos img:hover{
+    box-shadow:  0 0 50px 10px rgba(0, 0, 0, 0.25);
+    opacity: 150%;
+    
+    
+}
+
+.btn__and__op__text{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.btn__and__op__text input{
+    width: 170px;
+    height: 45px;
+    font-size: 16px;
+    background-color: #46856E;
+    color: honeydew;
+    border: none;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.btn__and__op__text input:hover{
+    background-color: #1b644a;
+    
+}   
+
+.risks__opacity__text{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    color: #333;
+    opacity: 50%;
+    cursor: pointer;
+
+}
+
+.risks__opacity__text:hover{
+    opacity: 100%;
+}
+
+ /* RISK SECTION END */
+
+
+
+                     /* ORDER SECTION START */
+
+#order__rooms{
+    width: 100%;
+    height: 80vh;
+    background-color: #333;
+    display: flex;
+}
+
+
+.order__rooms__logo{
+    font-size: 40px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: rgb(218, 240, 218);
+    margin-top: 130px;
+    margin-left: 130px;
+}
+
+.links__order{
+    position: relative;
+    top: 200px;
+    margin-left: 140px;
+    line-height: 30px;
+    
+}
+
+.links__order a{
+    text-decoration: none;
+    color: honeydew;
+    font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.links__order a:hover{
+    text-decoration: underline;
+}
+
+.orders__input{
+    width: 400px;
+    height: 250px;
+    box-shadow:  0 0 100px 50px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+    right: 200px;
+    border-radius: 20px;
+}
+
+.orders__input .st__p {
+    font-size: 35px;
+    color: honeydew;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 18px;
+}
+
+ #order__input{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    top: 30px;
+    left:10% ;
+    border: 0.5px solid;
+    border-radius: 10px;
+}
+#order__input:active{
+    border: 0.5px solid;
+    border: none;
+}
+
+#btn{
+    float: right;
+    position: relative;
+    top: 95px;
+    right: 30px;
+    width: 120px;
+    height: 40px;
+    background-color: #46856E;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    transition: .7s ease-in-out;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #1c5c44;
+}
+#btn:active{
+    border: 1px solid #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.innerHTML{
+    position: relative;
+    top: 120px;
+    left: 30px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: honeydew;
+    width: 100px;
+}
+
+.location__map{
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+    top: 15%;
+    right: 10%;
+}
+.back{
+    position: absolute;
+    left: -70px;
+    margin-top: 450px;
+    font-size: 20px;
+    color: honeydew;
+    opacity: 50%;
+    font-family: Verdana, Geneva, sans-serif;
+    letter-spacing: 4px;
+    transform:  rotate(-90deg);
+    cursor: pointer;
+    transition: .7s ease-in-out;
+}
+
+.back:hover{
+    color: yellow;
+}
+
+/* ORDER SECTION END */
+
+
+
+@media  screen  (max-width: px) {
+
+}
